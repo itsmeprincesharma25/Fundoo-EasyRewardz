@@ -1,0 +1,14 @@
+﻿using ModelLayer;
+using ModelLayer.Model;
+using RepositoryLayer.Entity;
+
+namespace RepositoryLayer.Interface
+{
+    public interface IUserRL
+    {
+        RegistrationModel RegisterUserRL(RegistrationModel registrationModel);
+        UserEntity? LoginUserRL(LoginModel loginModel);
+        UserEntity? GetUserByEmailRL(string email);
+        bool ResetPasswordRL(int userId, string newPassword);
+    }
+}
