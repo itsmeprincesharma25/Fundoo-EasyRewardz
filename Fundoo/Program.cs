@@ -63,6 +63,16 @@ namespace Fundoo
                     builder.Configuration.GetConnectionString(
                         "FundooConnection"));
             });
+            /*builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend", policy =>
+                {
+                    policy
+                        .WithOrigins("http://localhost:3000")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });*/
 
             builder.Services
                 .AddAuthentication(
