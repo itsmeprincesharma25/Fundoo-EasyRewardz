@@ -28,6 +28,8 @@ namespace Fundoo
             builder.Services.AddControllers();
 
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddScoped<INoteRL, NoteRL>();
+            builder.Services.AddScoped<INoteBL, NoteBL>();
 
             builder.Services.AddSwaggerGen(options =>
             {

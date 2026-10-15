@@ -106,7 +106,7 @@ namespace AuthenticationService.Service
                 validationParameters,
                 out _);
 
-            var purpose =
+            var purpose = 
                 principal.FindFirst("purpose")?.Value;
 
             if (purpose != "password-reset")
@@ -121,8 +121,7 @@ namespace AuthenticationService.Service
 
             if (!int.TryParse(userId, out var id))
             {
-                throw new SecurityTokenException(
-                    "Invalid user.");
+                throw new SecurityTokenException("Invalid user.");
             }
 
             return id;
@@ -135,22 +134,15 @@ namespace AuthenticationService.Service
             string audience,
             int expiryMinutes)
         {
-            var securityKey =
-                new SymmetricSecurityKey(
-                    Encoding.UTF8.GetBytes(key));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
 
-            var credentials =
-                new SigningCredentials(
-                    securityKey,
-                    SecurityAlgorithms.HmacSha256);
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
                 issuer: issuer,
                 audience: audience,
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(
-                    expiryMinutes),
-                signingCredentials: credentials);
+                expires: DateTime.UtcNow.AddMinutes(expiryMinutes), signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler()
                 .WriteToken(token);

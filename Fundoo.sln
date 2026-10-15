@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{F18F1E23-1C1B-4BC0-9E17-0FB7E34F825A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLayer", "ModelLayer\ModelLayer.csproj", "{7A2DE95A-6775-42AA-B53F-59F9733E2A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "RepositoryLayer\RepositoryLayer.csproj", "{68DDC008-26DB-48CB-BDA4-6599B7D033F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "MessageService\MessageService.csproj", "{4D597732-3B3B-4EE2-ABFD-42882C584291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{487E942F-1B2C-432E-9A09-B8C67DBC7B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{764EB50C-13C0-4BDC-A4EC-75FCB651F8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundoo", "Fundoo\Fundoo.csproj", "{2E5DC2FF-FD5F-4460-B689-BA0A6A1C5DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F18F1E23-1C1B-4BC0-9E17-0FB7E34F825A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18F1E23-1C1B-4BC0-9E17-0FB7E34F825A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18F1E23-1C1B-4BC0-9E17-0FB7E34F825A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18F1E23-1C1B-4BC0-9E17-0FB7E34F825A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2DE95A-6775-42AA-B53F-59F9733E2A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2DE95A-6775-42AA-B53F-59F9733E2A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2DE95A-6775-42AA-B53F-59F9733E2A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2DE95A-6775-42AA-B53F-59F9733E2A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DDC008-26DB-48CB-BDA4-6599B7D033F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DDC008-26DB-48CB-BDA4-6599B7D033F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DDC008-26DB-48CB-BDA4-6599B7D033F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DDC008-26DB-48CB-BDA4-6599B7D033F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D597732-3B3B-4EE2-ABFD-42882C584291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D597732-3B3B-4EE2-ABFD-42882C584291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D597732-3B3B-4EE2-ABFD-42882C584291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D597732-3B3B-4EE2-ABFD-42882C584291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487E942F-1B2C-432E-9A09-B8C67DBC7B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487E942F-1B2C-432E-9A09-B8C67DBC7B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487E942F-1B2C-432E-9A09-B8C67DBC7B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487E942F-1B2C-432E-9A09-B8C67DBC7B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764EB50C-13C0-4BDC-A4EC-75FCB651F8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764EB50C-13C0-4BDC-A4EC-75FCB651F8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764EB50C-13C0-4BDC-A4EC-75FCB651F8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764EB50C-13C0-4BDC-A4EC-75FCB651F8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5DC2FF-FD5F-4460-B689-BA0A6A1C5DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5DC2FF-FD5F-4460-B689-BA0A6A1C5DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5DC2FF-FD5F-4460-B689-BA0A6A1C5DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5DC2FF-FD5F-4460-B689-BA0A6A1C5DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
